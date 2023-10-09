@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first-blog-box {
+  display: flex;
+  max-width: 100%;
+}
+.blog-box {
+  height: 50vh;
+  width: 40vw;
+  border: 1px solid black;
+  display: flex;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.secong-blog-box {
+  display: flex;
+  max-width: 100%;
+}
+.blog-simall-box {
+  width: 22vw;
+  height: 25vh;
+  border: 1px solid black;
+  background-image: url(/img/person/Brian_Tracy_\(4005302419\)_\(cropped\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.circle-bog {
+  margin-top: 0vh;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: aqua;
+  align-self: center;
+  z-index: 30;
+  margin-left: 20px;
+}
+.blog-text {
+  align-items: flex-end;
+}
